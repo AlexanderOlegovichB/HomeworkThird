@@ -32,7 +32,7 @@ public class LifeCycleTest {
 
     @Test
     public void testNotNull() {
-        //    Тест на налл
+        //    Тест на налл!
         Integer integer = 4;
         Assertions.assertNotNull(integer, "Опа, налл");
     }

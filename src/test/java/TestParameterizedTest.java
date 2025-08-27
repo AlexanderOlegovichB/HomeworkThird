@@ -8,6 +8,7 @@ public class TestParameterizedTest {
     @ParameterizedTest
     @ValueSource(strings = {"Первый", "Второй", "Третий"})
     void parametrizedTest (String strings) {
+        // такой вот
         Assertions.assertFalse(strings.isEmpty(), "Пусто");
     }
 }
